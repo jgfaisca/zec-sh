@@ -26,10 +26,10 @@ function installAMD-APP-SDK(){
 # install AMD GPU PRO driver
 function installAMD-GPU-PRO(){
   if 	[ ! -d "/tmp/$AMD_GPU_PRO" ]; then
-      cd /tmp 
+      		cd /tmp 
   		[ -f ./$AMD_GPU_PRO ] || curl -O -k "$URL2/$AMD_GPU_PRO"
-      tar -Jxvf $AMD_GPU_PRO
-		  amdgpu-pro-driver/amdgpu-pro-install
+      		tar -Jxvf $AMD_GPU_PRO
+		amdgpu-pro-driver/amdgpu-pro-install
   fi
 }
 
