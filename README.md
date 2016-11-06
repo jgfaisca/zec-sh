@@ -1,2 +1,2 @@
-# zcash-sh
+# zec-sh
 Zcash scripts
