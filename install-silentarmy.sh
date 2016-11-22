@@ -69,5 +69,5 @@ make
 # add user to the video group 
 sudo usermod -a -G video $LOGNAME
 
-echo "You will need to restart your machine to launch using the new graphics stack.
+echo "Restart your machine to launch using the new graphics stack.
 shutdown -r -v +1
